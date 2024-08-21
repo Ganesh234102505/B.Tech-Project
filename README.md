@@ -1,5 +1,4 @@
-def generate_readme():
-    readme_content = """
+
 # Smart Charging System for Electric Vehicles
 
 ## Overview
@@ -73,15 +72,4 @@ This project involves the design and implementation of a Smart Charging System f
 - P. Jagadeesh
 - Saadique Mehboob
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-    """
-
-    with open("README.md", "w") as file:
-        file.write(readme_content)
-
-    print("README.md has been generated successfully!")
-
-# Generate the README file
-generate_readme()
